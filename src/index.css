@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "sp";
+  src: local("sp"),
+    url("./assets/SUPER PUNCH.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "tungsten";
+  src: local("tungsten"),
+    url("./assets/tungsten.otf") format("truetype");
+  font-weight: bold;
+}
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Montserrat ExtraLight', 
+      'Montserrat Regular' , 'Montserrat SemiBold'
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
